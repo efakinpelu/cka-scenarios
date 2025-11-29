@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mapfile -t users < /tmp/users
-[[ ${users[@]} =~ ${envUser} ]] && echo exists || echo notfound;
+if [[ -n $envUser ]]; then [[ ${users[@]} =~ ${envUser} ]] && exit 0 || exit 1; fi
