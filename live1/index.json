@@ -1,1 +1,21 @@
+{
+  "title": "Live CKA Exam Prep",
+  "decription": "",
+  "details": {
+     "intro": {
+       "text": "The mock exam starts here"
+  }
+  "steps": [
+    {
+      "title": "Export access token into environment variable",
+      "text": "access/text.md",
+      "verify": "access/verify.sh"
+    },
+  ],
+  "finish": {
 
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
