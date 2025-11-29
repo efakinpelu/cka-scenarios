@@ -5,6 +5,6 @@ for user in ${validUser[@]}; do
       valid=true
   fi
 done
-if $valid; then 
-  exit(0);
+if [[ -n $valid ]]; then 
+  echo "OK"
 fi
