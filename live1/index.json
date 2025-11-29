@@ -14,7 +14,7 @@
       {
         "title": "Question1: Autoscale",
         "text": "access/text.md",
-        "verify": "access/verify.sh"
+        "verify": "access/verify_user.sh"
       }
     ],
     "finish": {
