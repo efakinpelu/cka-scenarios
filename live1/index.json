@@ -3,7 +3,7 @@
   "decription": "CKA Mock Exam with Live Tutor Review Session",
     "details": {
        "intro": {
-         "text": "The mock exam starts here"
+         "text": "intro.md"
        },
     "steps": [
       {
