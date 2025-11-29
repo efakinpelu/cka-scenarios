@@ -7,9 +7,9 @@
        },
     "steps": [
       {
-        "background": "access/background.sh",
-        "title": "Export access token into environment variable",
+        "title": "Export access token into environment variable",        
         "text": "access/text.md",
+        "background": "access/background.sh",
         "verify": "access/verify_user.sh"
       },
       {
