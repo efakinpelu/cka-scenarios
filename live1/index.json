@@ -9,7 +9,7 @@
       {
         "title": "Export access token into environment variable",
         "text": "access/text.md",
-        "verify": "access/verify.sh"
+        "verify": "access/verify_user.sh"
       },
       {
         "title": "Question1: Autoscale",
