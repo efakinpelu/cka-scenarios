@@ -4,13 +4,18 @@
     "details": {
        "intro": {
          "text": "The mock exam starts here"
-       }
+       },
     "steps": [
       {
         "title": "Export access token into environment variable",
         "text": "access/text.md",
         "verify": "access/verify.sh"
       },
+      {
+        "title": "Question1: Autoscale",
+        "text": "access/text.md",
+        "verify": "access/verify.sh"
+      }
     ],
     "finish": {
       "text": "finish.md"
