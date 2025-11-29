@@ -7,5 +7,5 @@ for user in ${validUser[@]}; do
   fi
 done
 if [[ -n $valid ]]; then 
-  export userVali="OK"
+  export userValid="OK"
 fi
