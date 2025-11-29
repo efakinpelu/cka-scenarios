@@ -4,4 +4,4 @@ for user in ${validUser[@]}; do
       valid=true
   fi
 done
-if $valid; then exit 0; fi
+if !$valid; then exit 1; fi
